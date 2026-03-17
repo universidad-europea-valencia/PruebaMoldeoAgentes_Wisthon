@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Setup React Frontend",
+			"type": "shell",
+			"command": "npm create vite@latest frontend -- --template react && cd frontend && npm install",
+			"group": "build"
+		}
+	]
+}
